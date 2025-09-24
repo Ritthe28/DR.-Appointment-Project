@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: greenyellow;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login, .SignUp{
+    border-radius: 23px;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0;
+    
+   
+
+}
+a{
+    text-decoration: none;
+}
+.SignUp{
+
+}
